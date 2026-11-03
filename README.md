@@ -42,13 +42,13 @@ DHCP-Shield/
 
 │   ├──topologia.gnsproject        # Proyecto GNS3 exportado
 
-│     └── configs/
+│   └── configs/
 
 │       ├── router-dhcp.cfg         # Servidor DHCP legítimo
 
 │       ├── switch-base.cfg         # Sin protecciones
 
-  │       └── switch-seguro.cfg       # Snooping + Port Security + DAI
+│       └── switch-seguro.cfg       # Snooping + Port Security + DAI
 
 ├── auditor/
 
