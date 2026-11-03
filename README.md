@@ -37,24 +37,43 @@ en redes conmutadas.
 ## Arquitectura del Proyecto
 
 DHCP-Shield/
+
 ├── lab/
-│   ├── topologia.gnsproject        # Proyecto GNS3 exportado
+
+│   ├──topologia.gnsproject        # Proyecto GNS3 exportado
+
 │   └── configs/
+
 │       ├── router-dhcp.cfg         # Servidor DHCP legítimo
+
 │       ├── switch-base.cfg         # Sin protecciones
+
 │       └── switch-seguro.cfg       # Snooping + Port Security + DAI
+
 ├── auditor/
+
 │   ├── main.py                     # CLI principal
+
 │   ├── pcap_analyzer.py            # Rogue DHCP y Starvation
+
 │   └── config_checker.py           # Revisión de .cfg
+
 ├── capturas/
+
 │   └── ejemplo_rogue.pcap          # Captura de prueba
+
 ├── docs/
+
 │   ├── guia-laboratorio.md         # Paso a paso del lab
+
 │   └── mitigaciones.md             # Explicación de cada defensa
+
 ├── tests/
+
 │   └── test_auditor.py             # Pruebas con pytest
+
 ├── requirements.txt
+
 └── README.md
 
 ---
