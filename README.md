@@ -48,7 +48,7 @@ DHCP-Shield/
 
 │       ├── switch-base.cfg         # Sin protecciones
 
-│         └── switch-seguro.cfg       # Snooping + Port Security + DAI
+  │       └── switch-seguro.cfg       # Snooping + Port Security + DAI
 
 ├── auditor/
 
@@ -56,7 +56,7 @@ DHCP-Shield/
 
 │   ├── pcap_analyzer.py            # Rogue DHCP y Starvation
 
-│     └── config_checker.py           # Revisión de .cfg
+│   └── config_checker.py           # Revisión de .cfg
 
 ├── capturas/
 
@@ -66,7 +66,7 @@ DHCP-Shield/
 
 │   ├── guia-laboratorio.md         # Paso a paso del lab
 
-│     └── mitigaciones.md             # Explicación de cada defensa
+│   └── mitigaciones.md             # Explicación de cada defensa
 
 ├── tests/
 
